@@ -1,8 +1,8 @@
 # TwitterSentimentByState
-Sentiment analysis by state for different terms on twitter (groups, individuals, etc.)
+Sentiment analysis by state for different terms on twitter (groups, individuals, etc.) using R.
 
 
-This is a python program I wrote that attempts to conduct a state-level sentiment analysis for a keyword. For example, 
+This is an R program I wrote that attempts to conduct a state-level sentiment analysis for a keyword. For example, 
 do tweets from one state have more negativity towards Muslims than tweets from another state? 
 
 However, I wasn't able to find a package that converted self-identified locations to consistent state-level acronyms.
