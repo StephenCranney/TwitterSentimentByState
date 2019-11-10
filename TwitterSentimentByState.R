@@ -77,7 +77,7 @@ source("https://raw.githubusercontent.com/LucasPuente/geocoding/master/geocode_h
 source("https://raw.githubusercontent.com/LucasPuente/geocoding/master/modified_geocode.R")
 
 geocode_apply<-function(x){
-  geocode(x, source = "google", output = "all", api_key="AIzaSyBZQEtoSbDtLr8vHQsoajMwexU9Lz-5dYU")
+  geocode(x, source = "google", output = "all", api_key="")
 }
 
 geocode_results<-sapply(users_df$location, geocode_apply, simplify = F)
